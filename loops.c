@@ -55,3 +55,39 @@ for (int i = 99; i >=0;i--){
   printf("%d bottles of pop on the wall.\n", i-1);
 
 }
+  int number1 = 1;
+  int numbers_entered1 = 0;
+  int number2 = 1;
+  int numbers_entered2 = 0;
+
+  while (numbers_entered1 < 10) {
+
+    printf("Loop 1 - Please enter a number: ");
+    scanf("%d", &number1);
+
+    // Figure out how to break out here!
+    if (number1 <= 0){
+      break;
+    }
+
+
+
+
+    numbers_entered1++;
+  }
+      while (number2 > 0 && numbers_entered2 < 10){
+    printf("Loop 2 - Please enter a number: ");
+    scanf("%d", &number2);
+    }
+
+  printf("Good job! You’ve broken out!\n");
+
+    for (int i = 0; i < 10; i++) {
+    // Figure out how to skip the print of 5 here
+    if (i == 5){
+      continue;
+    }
+
+    printf("%d\n", i);
+  }
+}
