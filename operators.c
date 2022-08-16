@@ -27,4 +27,34 @@ int booksSold = 100;
   printf("m = %d\n", m);
   printf("n = %d\n", n);
 
+  int timesServerCrashed = 5;
+  double losses = 500.95;
+  losses *= timesServerCrashed;
+  losses /= 2;
+
+  printf("Total Losses: $%.2f\n", losses);
+
+   int x = 5;
+  int y = 42;
+
+  if (x < y) {
+   printf("Congratulations on setting up a comparison correctly!");
+
+     int x = 1;
+  int y = 27;
+
+  if (x != y) {
+    printf("Congratulations on setting up a comparison correctly!");
+  } else {
+    printf("Please try again!");
+  }
+
+  int x;
+  int y;
+
+  x = (2 + 3) * 5;
+  y = 2 / (4 + 6);
+
+  printf("x is: %d\n", x);
+  printf("y is: %d\n", y);
 }
